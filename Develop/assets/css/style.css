@@ -9,8 +9,8 @@ body
 {
     background-color: #d9dcd6;
 }
-
-.header 
+/* Navigation Start */
+header 
 {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -18,18 +18,18 @@ body
     color: #ffffff;
 }
 
-.header h1 
+header h1 
 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo 
+header h1 .seo 
 {
     color: #d9dcd6;
 }
 
-.header div 
+header nav 
 {
     padding-top: 15px;
     margin-right: 20px;
@@ -38,16 +38,18 @@ body
     font-size: 20px;
 }
 
-.header div ul 
+header nav ul 
 {
     list-style-type: none;
 }
 
-.header div ul li 
+header nav ul li 
 {
     display: inline-block;
     margin-left: 25px;
 }
+
+/* Navigation End */
 
 a 
 {
@@ -82,7 +84,7 @@ p
     margin-left: 25px;
 }
 
-.content 
+.content
 {
     width: 75%;
     display: inline-block;
@@ -221,7 +223,9 @@ p
     font-size: 36px;
 }
 
-.footer 
+/* Footer Start */
+
+footer 
 {
     padding: 30px;
     clear: both;
@@ -229,7 +233,9 @@ p
     text-align: center;
 }
 
-.footer h2 
+footer h2 
 {
     font-size: 20px;
 }
+
+/* Footer End */
